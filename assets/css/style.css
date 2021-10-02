@@ -815,6 +815,7 @@ form label {
           padding-bottom: 21px;
           text-transform: uppercase;
           padding-right: 110px;
+          font-weight: bold;
          
     }
     nav li > a {
@@ -889,6 +890,7 @@ form label {
    }
    .position-videolist
    {
+       padding-top: 100px;
        padding-left: 220px;
        padding-right: 220px;
    }
@@ -974,15 +976,20 @@ form label {
         max-width: 320px;
         max-height: 320px;
    }
+   #contact_form{
+       max-height: 300px;
+   }
+   
    /*Contact Page Styling  */
    .pos-bookingform {
+       /*padding-top: 100px;*/
        margin-top: 20px;
        margin-bottom: 20px;
        margin-left: 350px;
        width: 380px;
        height: 400px;
-       padding: 20px;
-       padding-top: 40px;
+      /* padding: 20px;*/
+       padding-top: 120px;
        float: left;
    }
    input[type=text],input[type=email],input[type=date],textarea{
