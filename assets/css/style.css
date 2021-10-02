@@ -8,7 +8,9 @@
     border:0;
 }
 body { 
-    background-color: grey;
+    /*commit1_remove ugly color from site such as grey and moroon
+    /*background-color: grey;*/
+
     color: var(--black);
     font-size: 16px;
     font-family: Arial, Helvectica, sans-serif;
