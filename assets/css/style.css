@@ -2,11 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-*{ 
+
+{ 
     padding: 0px;
     margin: 0px;
     border:0;
 }
+/*commit 3 replace with below *rule  
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+   
+}*/
+
 body { 
     /*commit1_remove ugly color from site such as grey and moroon
     /*background-color: grey;*/
@@ -29,29 +39,31 @@ body {
 
 header h1 {
     font-size: 150%;
+
 }
+/*
 .position_header_title {
 
-    /*commit2 possibly*/
-    /*background-color: var(--maroon);*/
+  
 
     padding: 12px 12px 12px 18px;
     margin: 15px 0px 10px 0px;
     
-    /*commit2 possibly*/
-    /*border: 1px solid var(--black);*/
+   
 
     height: 23px;
     width: 320px;
     text-align: left;
     font-size: 75%;
-}
+}*/
 
 /* navigation and menu styling */
-nav {
+/*nav {
     width: 320px;
     border-bottom: 10px;
-}
+}*/
+
+
 nav ul {
     width: 352px;
     list-style-type: none;
@@ -59,26 +71,14 @@ nav ul {
     text-decoration: none;
     display: none;
 }
-nav li { 
-    
-    /*commit2 possibly*/
-    /*background-color: var(--maroon);*/    
-    /*color: var(--white);*/
-    
-    padding: 14px; 
-    text-align:  center;
 
-    /*commit2 possibly*/
-    /*border-bottom: 1px solid var(--black);*/
-    
+nav li {     
+    padding: 14px; 
+    text-align:  center;    
     transition: background-color 0.2s;
 }
 nav li > a{ 
     text-decoration: none;
-
-    /*commit2 possibly*/
-    /*color: var(--white);*/
-
     font-size: 15px;
 }
 nav ul li:hover {
@@ -741,12 +741,13 @@ form label {
 @media screen and (min-width: 1025px){
 
     /*Page header Styling  */
-    .position_header_title {
+    /*.position_header_title {
         padding: 15px;
         width: 1520px;
         text-align: center;       
         padding-top: 8px;
-    }
+    }*/
+
     header h1 {
         font-size: 240%;
         padding-top: 0;
@@ -758,42 +759,79 @@ form label {
         padding-bottom: 10px;
     }
     nav {
-          height: 55px;
+          height: 40px;
 
           /*commit2 possibly*/
           /*background-color: var(--black);*/
           
-          width: 1535px; 
+          /*commit 3 change width from */
+          /*width: 1535px;*/ 
+          
+          /*commit3 to  */
+          width: 100%;
+          height: 75px;
+          line-height: 75px;
+          position: fixed;
+          background-color: grey;
+          z-index: 1;
+          padding-bottom: 50px;
+
     }
+    .position_header_title{
+        /*float: left;*/
+        text-align: left;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    nav .position_header_title p{
+        float: left;
+        padding-bottom: 50px;
+        padding-top: 0px;
+        margin-top: 10px;
+        padding-left: 50px;
+        
+    }
+
     nav ul {
-      max-width: 1450px; 
+      /*max-width: 1450px;*/ 
       margin-top: 10px;
       margin-bottom: 10px;
       padding: 0px 1px 0px 1px;
       text-align: right;
       width: 1535px;
       display: inline-block;
+
+      /*commit 3 possibly */
+      float: right;
+
     }
     nav ul > li {
           display: inline-block;
           text-align: center;
           margin-right: 5px;
-          width: 120px;
+          width: 100px;
           height: 8px;
           padding-top: 5px;
           padding-bottom: 21px;
+          text-transform: uppercase;
+          padding-right: 110px;
+         
     }
     nav li > a {
-          font-size: 79%;
+          /*font-size: 79%;*/
           margin-bottom: 5px;
           height: 40px;
-          letter-spacing: 2px;
+         /* letter-spacing: 2px;*/
+          color: black;
+          font-size: 13.5px;
     }
     .burger_menu{
         display: none;
     }
 
     img{
+        padding-top: 80px;
+        margin-top: 55px;
         max-width: 120%;
         max-height: 120%;
         display: block;
@@ -803,6 +841,7 @@ form label {
     .bio {
         float: left;
         width: 550px;
+        padding-top: 80px;
         margin-top: 55px;
         padding-left: 110px;
     }
