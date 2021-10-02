@@ -11,17 +11,19 @@ body {
     /*commit1_remove ugly color from site such as grey and moroon
     /*background-color: grey;*/
 
-    color: var(--black);
+    /*commit2 possibly*/
+    /*color: var(--black);*/
     font-size: 16px;
     font-family: Arial, Helvectica, sans-serif;
 }
 
-:root {
+/*commit2 possibly*/
+/*:root {
     --white: #fff;
     --maroon: maroon;
     --black: black;
     --red: red;
-}
+}*/
 
 /**** This section before the media query is mobile phone view  ******/
 
@@ -29,10 +31,16 @@ header h1 {
     font-size: 150%;
 }
 .position_header_title {
-    background-color: var(--maroon);
+
+    /*commit2 possibly*/
+    /*background-color: var(--maroon);*/
+
     padding: 12px 12px 12px 18px;
-    margin: 15px 0px 10px 0px; 
-    border: 1px solid var(--black);
+    margin: 15px 0px 10px 0px;
+    
+    /*commit2 possibly*/
+    /*border: 1px solid var(--black);*/
+
     height: 23px;
     width: 320px;
     text-align: left;
@@ -52,16 +60,25 @@ nav ul {
     display: none;
 }
 nav li { 
-    background-color: var(--maroon);
-    color: var(--white);
+    
+    /*commit2 possibly*/
+    /*background-color: var(--maroon);*/    
+    /*color: var(--white);*/
+    
     padding: 14px; 
     text-align:  center;
-    border-bottom: 1px solid var(--black);
+
+    /*commit2 possibly*/
+    /*border-bottom: 1px solid var(--black);*/
+    
     transition: background-color 0.2s;
 }
 nav li > a{ 
     text-decoration: none;
-    color: var(--white);
+
+    /*commit2 possibly*/
+    /*color: var(--white);*/
+
     font-size: 15px;
 }
 nav ul li:hover {
@@ -80,7 +97,9 @@ nav ul li:hover {
     cursor: pointer;
     top: 20px;
     right: 0;
-    color: var(--white);
+    
+    /*commit2 possibly*/
+    /*color: var(--white);*/
 }
 #toggle:checked + #menu {
     display: block;
@@ -139,7 +158,10 @@ img{
     margin-top: 10px;
 }
 iframe {
-    border: 1px solid var(--red);
+    
+    /*commit2 possibly*/
+    /*border: 1px solid var(--red);*/
+
     font-size: 70%;
     width: 270px;
     height: 200px;
@@ -163,10 +185,14 @@ iframe {
     margin-left: 2px;
 }
 .ToFindOut a:link {
-  color: var(--maroon);
+
+    /*commit2 possibly*/
+  /*color: var(--maroon);*/
 }
 .ToFindOut a:visited {
-  color: var(--maroon);
+
+    /*commit2 possibly*/
+  /*color: var(--maroon);*/
 }
 
 /* Page Footer Styling */
@@ -186,15 +212,21 @@ footer ul >li i{
     font-size: 100%;
     margin: 10%;
     padding: 20%;
-    color: var(--black);
+
+    /*commit2 possibly*/
+    /*color: var(--black);*/
 }
 
 /* Testimonial Page Styling */
 .star-wrapper-pos{ 
     width: 170px; 
     height: 90px; 
-    padding: 1px 50px 0 50px; 
-    background-color: var(--maroon);
+    padding: 1px 50px 0 50px;
+    
+    /*commit2 possibly*/
+    /*background-color: var(--maroon);*/
+    
+    
     max-width: 1020px;
     margin: 0px auto; 
     margin-top: 10px;
@@ -222,8 +254,11 @@ footer ul >li i{
     width: 250px;
 }
 .test_title{
-    background-color: var(--maroon);
-    color: var(--white);
+
+    /*commit2 possibly*/
+    /*background-color: var(--maroon);
+    color: var(--white);*/
+    
     font-size: 90%;
     max-width: 1020px;
     margin-left: 25px;
@@ -273,7 +308,11 @@ footer ul >li i{
 .pos-bookingform {
     margin-top: 10px;
     margin-left: 16px;
-    color: var(--white);
+
+    /*commit2 possibly*/
+    /*color: var(--white);*/
+    
+    
     background-color: rgba(60, 60, 70, 0.6);
     width: 250px;
     height: 310px;
@@ -283,7 +322,10 @@ footer ul >li i{
 
 input[type=text],input[type=email],input[type=date],textarea{
   background: transparent;
-  color: var(--white);
+
+  /*commit possibly*/
+  /*color: var(--white);*/
+
   width: 140px;
   height: 25px;
   margin: 5px 0 20px 0;
@@ -299,8 +341,11 @@ input[type=submit], input[type=reset] {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: var(--maroon);
-    color: var(--white);
+
+    /*commit2 possibly*/
+    /*background-color: var(--maroon);
+    color: var(--white);*/
+    
     display: block;
     font-size: 80%;
     cursor: pointer;
@@ -714,7 +759,10 @@ form label {
     }
     nav {
           height: 55px;
-          background-color: var(--black);
+
+          /*commit2 possibly*/
+          /*background-color: var(--black);*/
+          
           width: 1535px; 
     }
     nav ul {
